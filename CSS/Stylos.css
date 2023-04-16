@@ -1,106 +1,273 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-  }
-  
-  nav {
-    height: 75px;
-    max-width: 98%;
-    position: sticky;
-    margin: 0 auto;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    background-color: rgba(185, 27, 90, 0.771);
-    /* Ajusta el valor de transparencia deseado */
-    border-radius: 10px;
-    /* Ajusta el valor para los bordes redondos */
-  }
-  
-  
-  
-  
-  .logo {
-    /* Ajusta el valor para la separación lateral deseada entre el logo y las opciones */
-    max-width: 100%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 100%;
-    background-color: rgba(49, 3, 20, 0.51);
-    display: flex;
-  
-  }
-  
-  
-  .logo-img {
-    padding: 10px;
-    max-width: 100%;
-    height: 75px;
-    text-align: center;
-  }
-  
-  nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;  
-  }
-  
-   nav>ul>li {
-    padding: 0 15px;
-  }
-  
-  
-  nav > ul > li > a {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .logo>a {
-    text-decoration: none;
-  }
-  .logo>span>i {
-    top: 5px;
-    text-decoration: none;
-  }
-  
-  .dropdown-content{
-    display:none;
-    position:absolute;
-    width: 100%;
-    top:100%;
-    left:0;
-    top : 30px;
-    background:#eee;
-    padding:0;
-  }
-  
-  .dropdown:hover > .dropdown-content {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+nav {
+  height: 75px;
+  max-width: 98%;
+  position: sticky;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(66,131, 157, 0.8);
+  /* Ajusta el valor de transparencia deseado */
+  border-radius: 10px;
+  /* Ajusta el valor para los bordes redondos */
+}
+
+
+
+
+.logo {
+  /* Ajusta el valor para la separación lateral deseada entre el logo y las opciones */
+  max-width: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 100%;
+  background-color: rgba(66, 131, 157, 0.9);
+  display: flex;
+
+}
+
+
+.logo-img {
+  padding: 10px;
+  padding-right: 40px;
+  max-width: 100%;
+  height: 75px;
+  text-align: center;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+nav>ul>li>a {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo>a {
+  text-decoration: none;
+}
+
+.logo>span>i {
+  top: 5px;
+  text-decoration: none;
+}
+
+
+nav>ul>li a:hover {
+  padding: 9px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.desplegable {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-right: 130px;
+  margin-left: 20px;
+}
+
+.primer-grupo i{
+  font-size: xx-small;
+  margin-left: 5px;
+}
+
+.cuenta {
+  margin-left: 30px;
+}
+
+.cuenta i{
+  margin-right: 5px;
+}
+
+#ha{
+  font-size: xx-small;
+  margin-left: 5px;
+}
+
+.op2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.dropdown i{
+  font-size: xx-small;
+  margin-left: 5px;
+}
+
+.op3 {
+  padding: 10px;
+  background-color: rgb(108, 4, 255);
+  border-radius: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  top: 30px;
+  background: #eee;
+  padding: 0;
+}
+
+.dropdown:hover>.dropdown-content {
   display: block;
-  }
-  
-  .dropdown-item{
-    padding: 10px;
-    margin: 6px;
-    display: block;
-  } 
+}
+
+.dropdown-item {
+  padding: 10px;
+  margin: 6px;
+  display: block;
+}
+
+.espacio-grande{
+  height: 70px;
+}
+
+.espacio-peque{
+  height: 80px;
+}
+
+.alinear-izquierda{
+  text-align: left;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.h1-important{
+  font-size: 3.2249999999999996rem;
+  line-height: 1.5;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #f0f0f0;
+  text-shadow: 10px 10px 1px transparent, 0 1px 2px rgba(0,0,0,.9);
+  font-weight: 700;
+}
+
+.espacio-entre{
+  height: 20px;
+}
+
+.espacio-entre-largo{
+  height: 45px;
+}
+
+.parrafo{
+  width: 70%;
+}
+
+.parrafo-entre{
+  font-size: 1.328rem;
+  line-height: 1.5;
+  font-family: Arial,Helvetica,sans-serif;
+  color: rgb(209 242 255);
+  text-shadow: 10px 0 1px transparent, 0 1px 2px rgba(0,0,0,.9);
+  font-weight: 400;
+}
+
+.link-subrayado{
+  font-size: 1.328rem;
+  line-height: 1.5;
+  font-family: Open Sans,Arial,Helvetica,sans-serif;
+  color: rgb(209 242 255);
+  text-shadow: 10px 0 1px transparent, 0 1px 2px rgba(0,0,0,.9);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.botones-parrafo{
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.btn1{
+  display: inline-block;
+  background-color: rgba(250, 0, 0, 0.2);
+  border: 1px solid red;
+  color: #f7b10a;
+  text-decoration: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn1:hover{
+  background-color: rgba(255, 6, 6, .8);
+}
+
+.btn1-outer{
+  border: 1px solid red;
+}
+
+.btn1-inner{
+  background-color: rgba(255, 6, 6, 0.4);
+  border: red;
+}
+
+.btn1-label{
+  padding: 10px 25px;
+}
+
+
+/*BOTON 2*/
+
+.btn2{
+  display: inline-block;
+  background-color: rgba(235, 7, 7, 0.2);
+  border: 1px solid yellow;
+  color: #f7b10a;
+  text-decoration: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn2:hover{
+  background-color: rgba(238, 167, 33, 1);
+}
+
+.btn1-outer{
+  border: 1px solid red;
+}
+
+.btn2-inner{
+  background-color: rgba(10, 1, 1, 0.5);
+  border: red;
+}
+
+.btn2-label{
+  padding: 10px;
+}
