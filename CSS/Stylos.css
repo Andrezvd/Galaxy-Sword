@@ -32,8 +32,6 @@ nav {
 }
 
 
-
-
 .logo {
   /* Ajusta el valor para la separación lateral deseada entre el logo y las opciones */
   max-width: 100%;
@@ -109,6 +107,10 @@ nav>ul>li a:hover {
 
 .cuenta i{
   margin-right: 5px;
+}
+
+#hu{
+  font-size: medium;
 }
 
 #ha{
@@ -248,7 +250,7 @@ nav>ul>li a:hover {
 .btn2{
   display: inline-block;
   background-color: rgba(235, 7, 7, 0.2);
-  border: 1px solid yellow;
+  border: 2px solid #c77e19;
   color: #f7b10a;
   text-decoration: none;
   margin-right: 20px;
@@ -256,16 +258,16 @@ nav>ul>li a:hover {
 }
 
 .btn2:hover{
-  background-color: rgba(238, 167, 33, 1);
+  background-color: rgb(187, 136, 43);
 }
 
-.btn1-outer{
-  border: 1px solid red;
+.btn2-outer{
+  border-color: 1px solid #000000;
 }
 
 .btn2-inner{
-  background-color: rgba(10, 1, 1, 0.5);
-  border: red;
+  background-color: rgba(0,0,0,.4);;
+  border: rgb(0, 0, 0);
 }
 
 .btn2-label{
