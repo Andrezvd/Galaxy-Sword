@@ -25,7 +25,7 @@ nav {
   margin-top: 25px;
   display: flex;
   align-items: center;
-  background-color: rgba(66,131, 157, 0.8);
+  background-color: rgba(66,131, 157, 0.9);
   /* Ajusta el valor de transparencia deseado */
   border-radius: 10px;
   /* Ajusta el valor para los bordes redondos */
@@ -92,8 +92,16 @@ nav>ul>li a:hover {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  margin-right: 130px;
-  margin-left: 20px;
+  width: 50px;
+}
+
+.noticias{
+ margin-right: 30px;
+}
+
+.buscador{
+  margin-left: 100px;
+  margin-right: 30px;
 }
 
 .primer-grupo i{
@@ -101,12 +109,19 @@ nav>ul>li a:hover {
   margin-left: 5px;
 }
 
-.cuenta {
-  margin-left: 30px;
-}
 
 .cuenta i{
   margin-right: 5px;
+}
+
+#icon-ajustes{
+  margin-right: 10px;
+  font-size: large;
+}
+
+#icon-registro{
+  margin-right: 10px;
+  font-size: large;
 }
 
 #hu{
@@ -116,6 +131,10 @@ nav>ul>li a:hover {
 #ha{
   font-size: xx-small;
   margin-left: 5px;
+}
+
+.flex-root{
+  display: flow-root;
 }
 
 .op2 {
@@ -137,26 +156,110 @@ nav>ul>li a:hover {
   border-radius: 10px;
 }
 
+.iniciar-secion{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 100%;
-  top: 100%;
-  left: 0;
-  top: 30px;
-  background-color: rgba(66,131, 157, 0.9);
+  width: auto;
+  background-color: rgba(11, 96, 130, 1);
   border-radius: 10px;
+  text-align: center;
   padding: 0;
 }
 
-.dropdown:hover>.dropdown-content {
-  display: block;
+.dropdown-content-info{
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(11, 96, 130, 1);
+  border-radius: 10px;
+  padding: 0;
 }
 
 .dropdown-item {
   padding: 10px;
   margin: 6px;
   display: block;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.transfondo{
+  margin: 6px;
+  display: block;
+  color: rgb(19, 5, 5);
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.transfondo-div{
+  background-color: black;
+  color: rgba(117, 108, 108, 0.7);
+  text-align: left;
+  font-size: 1.6rem;
+  height: 88px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.black-font{
+  background-color: #000000;
+  width: auto;
+}
+
+.dropdown-item:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  color: white;
+  width: auto;
+  border-radius: 10px;
+}
+
+/* Añadimos una clase 'show' para indicar que las subopciones deben estar visibles */
+.dropdown:hover > .dropdown-content,
+.dropdown:hover > .dropdown-content-info,
+.show {
+  display: block;
+}
+
+/* Añadimos un retraso de 0.2 segundos antes de ocultar las subopciones */
+.dropdown:hover > .dropdown-content,
+.dropdown:hover > .dropdown-content-info {
+  transition-delay: 0.2s;
+}
+
+.dropdown:hover > a {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Removemos la clase 'show' cuando el cursor sale de la opción principal o las subopciones */
+.dropdown-content,
+.dropdown-content-info {
+  transition: all 0.2s ease-out;
+  opacity: 0;
+}
+
+.dropdown:hover > .dropdown-content,
+.dropdown:hover > .dropdown-content-info,
+.show {
+  opacity: 1;
 }
 
 .espacio-grande{
@@ -276,3 +379,7 @@ nav>ul>li a:hover {
 }
 
 /*background-image: linear-gradient(90deg,#08552a -15.83%,#7df6db 53.7%,#4d9bd0 111.28%);*/
+
+
+
+

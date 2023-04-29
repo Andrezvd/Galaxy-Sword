@@ -12,7 +12,6 @@
    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="Stylesheet" type="text/css" href="./CSS/Stylos.css">
   <script src="https://kit.fontawesome.com/380cbd1a79.js" crossorigin="anonymous"></script>
-  <script src="./Js/Scrips.js"></script>
 </head>
 
 <body class="body">
@@ -25,21 +24,23 @@
         <img class="logo-img" src="./iconos/galaxy.ico.ico" alt="Logo de la página">
       </a>
     </div>
-    <ul>
+    <ul class="menu">
       <li class="dropdown">
-        <a class="" href="#">Información Sobre el juego<i class="fa-solid fa-chevron-down"></i></a>
-        <div class="dropdown-content">
-          <a class="dropdown-item" href="#">Razas</a>
+        <a class="flex-root" href="#">Información Sobre el juego<i class="fa-solid fa-chevron-down"></i></a>
+        <div class="dropdown-content-info">
+          <a class="dropdown-item" href="#">Clases</a>
           <a class="dropdown-item" href="#">Resumen</a>
           <a class="dropdown-item" href="#">Mundo abierto</a>
           <a class="dropdown-item" href="#">Jugabilidad</a>
           <a class="dropdown-item" href="#">Jugadores destacados</a>
-          <h2 class="dropdown-item">Transfondo</h2>
-          <a class="dropdown-item" href="#">Historia</a>
+          <div class="transfondo-div">
+            transfondo
+            <a class="dropdown-item black-font" href="#">Historia</a>
+          </div>
         </div>
       </li>
 
-      <li class="dropdown"><a class="primer-grupo" href="#">Expansiones<i class="fa-solid fa-chevron-down"></i></a>
+      <li class="dropdown"><a class="primer-grupo flex-root" href="#">Expansiones<i class="fa-solid fa-chevron-down"></i></a>
         <div class="dropdown-content">
           <a class="dropdown-item" href="#">Piso de los Condenados</a>
           <a class="dropdown-item" href="#">Piso de los Sobresalientes</a>
@@ -47,9 +48,9 @@
         </div>
       </li>
 
-      <li><a class="primer-grupo" href="#">Noticias</a></li>
+      <li><a class="primer-grupo noticias flex-root" href="#">Noticias</a></li>
 
-      <li class="dropdown"><a class="desplegable" href="#">...</a>
+      <li class="dropdown"><a class="desplegable flex-root" href="#">...</a>
         <div class="dropdown-content">
           <a class="dropdown-item" href="#">Foro</a>
           <a class="dropdown-item" href="#">Preguntas Habituales</a>
@@ -65,11 +66,11 @@
 
       <li><a class="buscador" href="#"><i class="fa-solid fa-magnifying-glass" style="color: #fafafa;"></i></a></li>
 
-      <li class="dropdown"><a class="cuenta" href="#"><i id="hu" class="fa-solid fa-user-slash"></i>Cuenta<i class="fa-solid fa-chevron-down"id="ha"></i></a>
+      <li class="dropdown"><a class="cuenta flex-root" href="#"><i id="hu" class="fa-solid fa-user-slash"></i>Cuenta<i class="fa-solid fa-chevron-down"id="ha"></i></a>
         <div class="dropdown-content">
-          <a class="dropdown-item" href="">Iniciar Secion</a>
-          <a class="dropdown-item" href="">Ajustes de Tú cuenta</a>
-          <a class="dropdown-item" href="">Registrarse</a>
+          <button type="button" class="btn btn-primary iniciar-secion">INICIAR SECION</button>
+          <a class="dropdown-item" href=""><i id="icon-ajustes" class="fa-solid fa-gear" style="color: #f2fafd;"></i>Ajustes de Tú cuenta</a>
+          <a class="dropdown-item" href=""><i id="icon-registro" class="fa-solid fa-pen-to-square" style="color: #ededee;"></i>Registrarse</a>
         </div>
       </li>
 
@@ -118,6 +119,7 @@
     </div>
   </div>
 </div>
+<script src="./Js/Scrips.js"></script>
 </body>
 
 </html>
