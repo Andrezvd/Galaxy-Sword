@@ -5,6 +5,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.body-clases{
+  background-image:url("../multimedia/fondo-clases.jpg") ;
+  background-size: cover;
+}
 
 #myVideo {
   position: fixed;
@@ -25,6 +29,7 @@ nav {
   margin-bottom: 20px;
   left: 15px;
   display: flex;
+  z-index: 999;
   align-items: center;
   background-color: rgba(66,131, 157, 0.9);
   /* Ajusta el valor de transparencia deseado */
@@ -312,6 +317,13 @@ nav>ul>li a:hover {
   width: 70%;
 }
 
+.alinear-centro{
+  text-align: center;
+  margin-left: 20px;
+  width: 100%;
+}
+
+
 .h1-important{
   font-size: 3.2249999999999996rem;
   line-height: 1.5;
@@ -331,6 +343,11 @@ nav>ul>li a:hover {
 
 .parrafo{
   width: 70%;
+}
+
+.parrafo-clases{
+  width: 100%;
+  text-align: center;
 }
 
 .parrafo-entre{
@@ -441,3 +458,59 @@ nav>ul>li a:hover {
 .ver-noticias{
   border: 1px solid blue;
 }
+
+.card {
+  background: #211510;
+  border: 1px solid #504137;
+
+  margin-right: 20px;
+}
+
+.card-img img {
+  object-fit: cover;
+}
+
+.contenedor-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.card-link {
+  width: 50%;
+  text-decoration: none;
+}
+
+.align-items-stretch {
+  display: flex;
+  align-items: stretch;
+  height: 220px;
+}
+
+.card-title{
+  font-size: 1.4rem;
+  text-shadow: none;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #f8b700;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.card-text{
+  line-height: 1.5;
+  font-size: 1.10rem;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #fff;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+  font-weight: 400;
+}
+
+.text-body-secondary{
+  color: #b1997f;
+}
+
+
+
+
+
+
