@@ -318,9 +318,13 @@ nav>ul>li a:hover {
 }
 
 .alinear-centro{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-left: 20px;
-  width: 100%;
+  width: 97%;
+
 }
 
 
@@ -346,7 +350,7 @@ nav>ul>li a:hover {
 }
 
 .parrafo-clases{
-  width: 100%;
+  width: 70%;
   text-align: center;
 }
 
@@ -462,8 +466,10 @@ nav>ul>li a:hover {
 .card {
   background: #211510;
   border: 1px solid #504137;
+}
 
-  margin-right: 20px;
+.mb-3{
+  margin-bottom: 0px !important;
 }
 
 .card-img img {
@@ -474,11 +480,14 @@ nav>ul>li a:hover {
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 15px;
 }
 
 .card-link {
   width: 50%;
   text-decoration: none;
+  margin-right: 15px;
 }
 
 .align-items-stretch {
@@ -505,8 +514,12 @@ nav>ul>li a:hover {
   font-weight: 400;
 }
 
+.last-card{
+  width: 98%;
+}
+
 .text-body-secondary{
-  color: #b1997f;
+  color: #f8b700 !important;
 }
 
 
