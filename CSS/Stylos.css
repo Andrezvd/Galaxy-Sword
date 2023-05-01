@@ -443,12 +443,10 @@ nav>ul>li a:hover {
 
 .contenedor-noticias{
   display: flex;
-  border: 2px solid black;
   margin-left: 20px;
 }
 
 .ultimas-noticias{
-  border: 1px solid yellow;
   line-height: 1.5;
   font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
   color: #fff;
@@ -460,9 +458,87 @@ nav>ul>li a:hover {
 }
 
 .ver-noticias{
-  border: 1px solid blue;
+  display: flex;
 }
 
+/*NOTICIAS Y ACTUALIZACIONES*/
+
+.a-noticias{
+  color: #f8b700;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #f8b700;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+  align-self: center;
+}
+
+.a-noticias:hover{
+  text-decoration: underline;
+  text-decoration-color: #f8b700;
+}
+
+.contenedor-actualizaciones{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.espacio-actualizaciones{
+  height: 120px;
+}
+
+.info-semana{
+  margin: 20px;
+}
+
+.info-fecha{
+  color: #ff0000;
+  font-family: fantasy;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+}
+
+.fecha{
+  color: black;
+  font-size: medium;
+  margin-left: 15px;
+  position: relative;
+  top: 10px;
+  margin-bottom: 10px; 
+  font-variant-caps: small-caps;
+}
+
+.primer-cuadro-semanal{
+  background-image: url(../multimedia/zoro.jpg);
+}
+
+.segundo-cuadro-semanal{
+  background-image: url(../multimedia/mihack.jpg);
+}
+
+.tercer-cuadro-semanal{
+  background-image: url(../multimedia/luufy.jpg);
+}
+
+.cuarto-cuadro-semanal{
+  background-image: url(../multimedia/shanks.jpg);
+}
+
+.cuadro-hover{
+  background-size: cover;
+  border: 2px solid #0f0901;
+  width: 25%;
+}
+
+.cuadro-hover:hover{
+  cursor: pointer;
+  border: 2px solid #f8b700;
+}
+
+/* DISEÑO PAGINA CLASES */
 .card {
   background: #211510;
   border: 1px solid #504137;
@@ -488,6 +564,10 @@ nav>ul>li a:hover {
   width: 50%;
   text-decoration: none;
   margin-right: 15px;
+}
+
+.card-link:hover{
+  border:1px solid #f8b700;
 }
 
 .align-items-stretch {
@@ -522,8 +602,102 @@ nav>ul>li a:hover {
   color: #f8b700 !important;
 }
 
+/*EMPEZAMOS LA SECCION FINAL DEL INDEZ*/
 
+.contenedor-invitacion{
+  width: 100%;
+  height: 480px;
+  background-image: url(../multimedia/r-arthas-espade.png);
+  background-size: cover;
+}
 
+.espaciesito{
+  background-color: #000000;
+  height: 5px;
+}
 
+/* CARDS QUE CON TEXTO IZUIQERDA*/
 
+.contenedor-texto-invitacion{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.parrafo-cards{
+  width: 55%;
+}
+
+.parrafo-entre-cards{
+  line-height: 1.5;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    /* color: #ebdec2; */
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+    font-weight: 400;
+    color: rgb(209 242 255);
+    font-size: 1.2rem;
+}
+
+.h1-info{
+  font-size: 3.2249999999999996rem;
+  line-height: 1.5;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #f0f0f0;
+  text-shadow: 10px 10px 1px transparent, 0 1px 2px rgba(0,0,0,.9);
+  font-weight: 700;
+}
+
+/* CARDS CON TEXTO EN LA DERECHA */
+
+.contenedor-texto-invitacion{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.parrafo-cards{
+  width: 55%;
+}
+
+.parrafo-entre-cards{
+  line-height: 1.5;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    /* color: #ebdec2; */
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+    font-weight: 400;
+    color: rgb(209 242 255);
+    font-size: 1.2rem;
+}
+
+.h1-info{
+  font-size: 3.2249999999999996rem;
+  line-height: 1.5;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #f0f0f0;
+  text-shadow: 10px 10px 1px transparent, 0 1px 2px rgba(0,0,0,.9);
+  font-weight: 700;
+}
+
+/* CARD CON CARTA QUE SE MUESTRA EL TEXTO POR DERECHA*/
+
+.contenedor-invitacion-right{
+  width: 100%;
+  height: 480px;
+  background-image: url(../multimedia/imagen-derecha.png);
+  background-size: cover;
+  text-align: right;
+}
+
+.parrafo-cards-right{
+  width: 52%;
+  display: inline-block;
+}
+
+.contenedor-texto-invitacion-right{
+  margin-top: 40px;
+  margin-right: 150px;
+}
+
+.botones-parrafo-right{
+  width: 103%;
+  font-size: 1.2rem;
+}
 
