@@ -5,6 +5,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.espacio-entre-grande{
+  height: 40px;
+}
+
 .body-clases{
   background-image:url("../multimedia/fondo-clases.jpg") ;
   background-size: cover;
@@ -453,12 +457,12 @@ nav>ul>li a:hover {
   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
   font-weight: 700;
   font-size: larger;
-  padding: 10px;
   text-transform: uppercase;
 }
 
 .ver-noticias{
   display: flex;
+  padding: 0 20px;
 }
 
 /*NOTICIAS Y ACTUALIZACIONES*/
@@ -466,9 +470,8 @@ nav>ul>li a:hover {
 .a-noticias{
   color: #f8b700;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
-  color: #f8b700;
   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
   align-self: center;
 }
@@ -486,7 +489,7 @@ nav>ul>li a:hover {
 }
 
 .espacio-actualizaciones{
-  height: 120px;
+  height: 80px;
 }
 
 .info-semana{
@@ -537,6 +540,105 @@ nav>ul>li a:hover {
   cursor: pointer;
   border: 2px solid #f8b700;
 }
+
+.contenedor-big-info{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.contenedor-big-a{
+  text-decoration: none;
+  background-image: url(../multimedia/sao.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 600px;
+}
+
+.contenedor-big-a-right{
+  text-decoration: none;
+  background-image: url(../multimedia/aincrad.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 600px;
+}
+
+.borde-gris{
+  border: 2px solid grey
+}
+
+.borde-gris:hover{
+  border: 3px solid #f8b700;
+}
+
+.espace-huge{
+  height: 450px;
+}
+
+.big-info-centrar-texto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 147px;
+  border-top: 1px solid #504137;
+  background: #211510;
+}
+
+.big-info-texto{
+  padding-top: 15px;
+  font-size: 1.08rem;
+  line-height: 1.5;
+  font-family: Open Sans,Arial,Helvetica,sans-serif;
+  color: #ebdec2;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.titulo-big-info{
+  font-size: 2.2395rem;
+  line-height: 1.5;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  color: #f8b700;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+  font-weight: 700;
+}
+
+.parrafo-big-info{
+  font-size: 1.08rem;
+  line-height: 1.5;
+  font-family: Open Sans,Arial,Helvetica,sans-serif;
+  color: #ebdec2;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+  font-weight: 400;
+}
+
+/* DISEÑO DE CONTENEDORES MEDIANOS FINALES */
+
+.espace-medium{
+  height: 395px;
+}
+
+.contenedor-mediano{
+  background-image: url(../multimedia/onepiece.jpg);
+  width: 50%;
+  height: 500px;
+}
+
+.contenedor-mediano-right{
+  background-image: url(../multimedia/espadas.jpg);
+  width: 50%;
+  height: 500px;
+}
+
+.short-info-centrar-texto{
+  height: 101px;
+}
+
 
 /* DISEÑO PAGINA CLASES */
 .card {
