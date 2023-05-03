@@ -803,3 +803,69 @@ nav>ul>li a:hover {
   font-size: 1.2rem;
 }
 
+/* FOOTER DE LA PAGINA */
+
+.contenedor-social{
+  height: 100px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://assets.worldofwarcraft.blizzard.com/static/components/Pane/Pane-dirtLight.18def74ed60ab9f1f4139f87349d2f79.jpg)
+}
+
+.social-panel{
+  display: table;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ebdec2;
+}
+
+
+.links-social{
+  display: table-cell;
+  padding: 0 20px;
+}
+
+.social-link{
+  padding: 0 10px;
+}
+
+
+.links-social a>i{
+  font-size: xx-large;
+}
+
+.links-social a:hover i {
+  color: #ffffff !important;
+}
+
+.redes-sociales{
+  text-transform: uppercase;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 1.388888rem;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+.super-espaciesito{
+  background-color: #000000;
+  height: 1px;
+}
+
+
+.contenedor-andrez-footer-original{
+  height: 500px;
+  width: 100%;
+  background-color: #211510 ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+
