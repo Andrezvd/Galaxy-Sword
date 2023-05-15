@@ -554,7 +554,8 @@ nav>ul>li a:hover {
   background-image: url(../multimedia/sao.jpg);
   background-size: cover;
   width: 50%;
-  height: 600px;
+  height: 100%;
+  border: 2px solid grey
 }
 
 .contenedor-big-a-right{
@@ -562,15 +563,13 @@ nav>ul>li a:hover {
   background-image: url(../multimedia/aincrad.jpg);
   background-size: cover;
   width: 50%;
-  height: 600px;
+  height: 100%;
+  border: 2px solid grey;
 }
 
-.borde-gris{
-  border: 2px solid grey
-}
 
 .borde-gris:hover{
-  border: 3px solid #f8b700;
+  border: 2px solid #f8b700;
 }
 
 .espace-huge{
@@ -636,7 +635,8 @@ nav>ul>li a:hover {
 }
 
 .short-info-centrar-texto{
-  height: 101px;
+  height: 102px;
+  margin-bottom: 0;
 }
 
 
@@ -666,6 +666,7 @@ nav>ul>li a:hover {
   width: 50%;
   text-decoration: none;
   margin-right: 15px;
+  border: 1px solid black;
 }
 
 .card-link:hover{
@@ -816,6 +817,14 @@ nav>ul>li a:hover {
 
 .footer-img{
   width: 15%;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg,#08552a -15.83%,#7df6db 53.7%,#4d9bd0 111.28%);
+}
+
+.footer-img:hover{
+  border: 1px solid yellow;
 }
 
 .social-panel{
