@@ -116,6 +116,7 @@ nav>ul>li a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   width: 50px;
+  transition: all .35s;
 }
 
 .buscador{
@@ -159,6 +160,10 @@ nav>ul>li a:hover {
 
 .flex-root{
   display: flow-root;
+}
+
+.ease-menu{
+  transition: all .35s;
 }
 
 .op2 {
